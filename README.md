@@ -4,6 +4,8 @@ An implementation of Sokoban, a type of transport puzzle where the player pushes
 ## Description
 This project is an implementation of Sokoban, a type of transport puzzle where the player pushes boxes or crates around in a warehouse to get them to storage locations. The game is command-line based where it is loaded from a text file passed as an argument during execution. The text file contains data for the game level layout, which includes the positions of the walls, boxes, and storage locations.
 
+![Screenshot of running game](sokoban_ss.png)
+
 ## Features
 - It uses the SFML library for rendering the game state to screen. The game state includes the map and positions for the player, boxes, and storage locations. All game logic is handled within the game's main loop.
 - The game also uses a two-dimensional grid to represent the game state, with different symbols representing different elements of the game. The grid is represented as a two-dimensional vector.
